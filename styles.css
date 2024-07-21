@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    scrollbar-width: 100px;
+}
+
+#title{
+    margin: 100px 100px 0 100px;
+    font-size: 4rem;
+    font-family: cursive;
+}
+
+#sign{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: rgba(145, 145, 145, 0.603);
+}
+
+#projects{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scale: 2;
+}
+
+.box{
+    border: 5px solid;
+    width: 200px;
+    height: 100px;
+    padding: 25px 100px;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    border-color: black;
+}
+
+.box:hover{
+    box-shadow: 5px;
+    background-color: rgb(240, 240, 240);
+    scale: 1.05;
+}
+
+#footers{
+    background-color: black;
+    border-top: 4px solid rgb(85, 150, 235);
+    color: white;
+    width: 97.4%;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+#container{
+    border: 10px solid black;
+    width: 500px;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    padding: 50px 0;
+    background-color: rgb(13, 67, 117);
+    color: white;
+    border-radius: 50px;
+    height: 400px;
+}
+
+#label1{
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+#label2{
+    font-size: 1.5em;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#colorSelect{
+    padding: 5px;
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+h3{
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    font-size: 30px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
